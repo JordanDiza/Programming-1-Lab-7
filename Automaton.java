@@ -73,4 +73,9 @@ public class Automaton
         state[numberOfCells / 2-1] = 1;
         state[numberOfCells / 2 + 1] = 1;
     }
+    
+    private int calculateNextState(int left, int center, int right)
+    { 
+        return (left + center + right) % 2;   
+    }
 }

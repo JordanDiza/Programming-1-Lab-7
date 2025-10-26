@@ -13,6 +13,6 @@ test test
 
 #35 the next state of a cell depends on left, center, and right, each 0 or 1. by combining them in diffrent ways (mod 2), we can create diffrent rules. there are 8 input so 2⁸ = 256.
 
-#36
+#37
 
 #36
